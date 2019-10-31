@@ -2,16 +2,16 @@
 class Codeon < Formula
   desc ""
   homepage "https://github.com/yamajik/codeon"
-  version "0.1.12"
+  version "0.1.13"
   bottle :unneeded
 
   if OS.mac?
-    url "http://github.com/yamajik/codeon/releases/0.1.12/codeon_0.1.12_Darwin_x86_64.tar.gz"
-    sha256 "c8071ce7988452f121bfeb75aeb1be664653d616a7a4006eb72d97d1a607674d"
+    url "http://github.com/yamajik/codeon/releases/download/0.1.13/codeon_0.1.13_Darwin_x86_64.tar.gz"
+    sha256 "dd0bc0b5dddc220349eaa94cd7dd7516c51a7945e8395b7cc968d34727e2e7a1"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "http://github.com/yamajik/codeon/releases/0.1.12/codeon_0.1.12_Linux_x86_64.tar.gz"
-      sha256 "4ef2945f58ebf5908f3dd4659da34b7b8a6ca908bcb393e2d7fe5cadb6cc10d5"
+      url "http://github.com/yamajik/codeon/releases/download/0.1.13/codeon_0.1.13_Linux_x86_64.tar.gz"
+      sha256 "8db502b7e9897baa17c20d20dd001a92064ba2c941f7bd00a990b5076ce638e3"
     end
   end
 
